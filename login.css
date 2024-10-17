@@ -1,0 +1,36 @@
+body{
+background-image: url(site.jpeg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+form{
+    background-color: rgb(4, 0, 20);
+    color:white ;
+    font-size: 25px;
+    padding: 8%;
+    margin-top: -8px;
+    display: grid;
+    text-align: center;
+    width: 250px;
+    height: 780px;
+    margin-left: -8px;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 5px rgb(26, 2, 59) solid;
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    border: 5px green solid;
+    margin-top: 15px;
+
+}
+
