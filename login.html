@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <title>Tela de login</title>
+    <script>
+        function redirecionarParaPaginaPrincipal() {
+            // Aqui podes validar o login antes de redirecionar, se necessário
+            window.location.href = "pagina_principal.html"; // Redireciona para a página principal
+        }
+    </script>
 </head>
-
 <body>
-    
-    <section class="login-form">
-        <form action="">
-        <label action="user">Insira seu nome de usuario</form>
-        <input type="text" name="user" id="user">
-
-        <label action="password">Coloque sua senha</form>
-        <input type="text" name="password" id="password">
-        <button>Entrar</button>
-    </form>
-    </section>
+    <div>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button onclick="redirecionarParaPaginaPrincipal()">Enviar</button>
+        <p>Esqueceu sua senha?</p>
+    </div>
 </body>
 </html>

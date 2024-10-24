@@ -1,0 +1,10 @@
+body {
+    background-image: url(kevin-james-king-of-queens-zz-230927-368fe6.jpg);
+    background-size: 100% 100%;
+    background-size: 100% 100%; /* Estica a imagem para cobrir toda a página */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
