@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function redirecionarParaLogin() {
+            window.location.href = "login.html"; 
+        }
+        function redirecionarParaCadastrar() {
+            window.location.href = "login.html"; 
+        }
+    </script>
 </head>
 <body>
-    <h1>faça seu login aqui</h1>
-    <nav>
-        <li>
-            <a href="login.html"></a>
-        </li>
-    </nav>
+    <h1>Conecte sua conta aqui</h1>
+<button onclick="redirecionarParaLogin()">Logar conta</button>
+    <h1>ou crie uma aqui</h1>
+    <button onclick="redirecionarParaCadastrar()">Criar conta</button>
+
 </body>
 </html>

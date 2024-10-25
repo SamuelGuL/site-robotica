@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,11 @@
     <title>Tela de login</title>
     <script>
         function redirecionarParaPaginaPrincipal() {
-            // Aqui podes validar o login antes de redirecionar, se necessário
-            window.location.href = "pagina_principal.html"; // Redireciona para a página principal
+            window.location.href = "pagina_principal.html";
         }
     </script>
 </head>
+
 <body>
     <div>
         <h1>Login</h1>
@@ -21,7 +22,9 @@
         <input type="password" placeholder="Senha">
         <br><br>
         <button onclick="redirecionarParaPaginaPrincipal()">Enviar</button>
-        <p>Esqueceu sua senha?</p>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Lembrar de mim</label>
     </div>
 </body>
+
 </html>
